@@ -1,1 +1,61 @@
-/* write down the css for Carousel in this file */
+* {
+  margin: 0;
+  padding: 0;
+}
+.carousel-content {
+  margin-top: 100px;
+  width: 600px;
+  height: 500px;
+  background-color: rgba(50, 50, 50, 0.553);
+}
+.carousel-text h2 {
+  width: 150px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.493);
+  margin-left: 240px;
+  margin-top: 100px;
+  text-align: center;
+}
+.carousel-text p {
+  width: 280px;
+  height: 5 0px;
+  background-color: rgba(255, 255, 255, 0.493);
+  margin-left: 180px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+p {
+  position: relative;
+  bottom: 500px;
+  color: rgb(0, 0, 0);
+  font-weight: 550;
+  font-size: 20px;
+}
+h2 {
+  position: relative;
+  bottom: 500px;
+  color: rgb(0, 0, 0);
+}
+img {
+  margin-left: 50px;
+  width: 500px;
+  height: 500px;
+}
+.carousel-arrow:hover {
+  color: white;
+}
+.carousel-arrow-forward {
+  position: relative;
+  cursor: pointer;
+  bottom: 300px;
+  left: 538px;
+  color: white;
+}
+.carousel-arrow-backward {
+  cursor: pointer;
+  color: white;
+  bottom: 300px;
+  right: -20px;
+  position: relative;
+}
